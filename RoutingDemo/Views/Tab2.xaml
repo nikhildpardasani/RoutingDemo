@@ -5,6 +5,7 @@
             <Button Text="Click here to go to Page 2A" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton1Clicked"/>
             <Button Text="Click here to go to Page 2B" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton2Clicked"/>
             <Button Text="Click here to go to Page 2C" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton3Clicked"/>
+            <Button x:Name="btn1" Text="Click here to Start the work" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton4Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

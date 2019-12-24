@@ -4,7 +4,7 @@
         <StackLayout Spacing="20" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" Padding="20">
             <Button Text="Click here to go to Page 1A" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton1Clicked"/>
             <Button Text="Click here to go to Page 1B" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton2Clicked"/>
-            <Button Text="Click here to go to Page 1C" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton3Clicked"/>
+            <!--<Button Text="Click here to go to Page 1C" HorizontalOptions="FillAndExpand" BackgroundColor="DarkBlue" TextColor="White" Clicked="OnButton3Clicked"/>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

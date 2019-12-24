@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using RoutingDemo;
 using Xamarin.Forms;
 
 namespace RoutingInShell.Views
@@ -25,6 +25,19 @@ namespace RoutingInShell.Views
         void OnButton3Clicked(object sender, EventArgs args)
         {
             Shell.Current.GoToAsync("Tab2/Tab2C");
+        }
+
+        void OnButton4Clicked(object sender, EventArgs args)
+        {
+            App.IsRunning = !App.IsRunning;
+            if(App.IsRunning)
+            {
+                btn1.Text = "Click here to Stop the work";
+            }
+            else
+            {
+                btn1.Text = "Click here to Start the work";
+            }
         }
     }
 }

@@ -11,5 +11,10 @@ namespace RoutingInShell.Views
         {
             InitializeComponent();
         }
+
+        void OnButton1Clicked(object sender, EventArgs args)
+        {
+            Shell.Current.GoToAsync("Tab1/Tab1B");
+        }
     }
 }
